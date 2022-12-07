@@ -1,10 +1,10 @@
 <template>
   <section class="sidebar">
     <div class="sidebar__container">
-      <nuxt-link no-prefetch exact to="/">
+      <nuxt-link class="sidebar__link-logo" no-prefetch exact to="/">
         <img class="sidebar__logo" src="/logo.svg" alt="logo">
       </nuxt-link>
-      <div>
+      <div class="sidebar__wrapper">
         <ul class="sidebar__list">
           <li class="sidebar__links" v-for="(item, index) of menuItem" :key="index">
             <nuxt-link no-prefetch exact class="sidebar__link" active-class="active" :to="item.path">

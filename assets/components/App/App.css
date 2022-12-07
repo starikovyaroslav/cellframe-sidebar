@@ -1,9 +1,8 @@
 .app {
   background-color: #2E3138;
   min-width: 320px;
+  min-height: 100vh;
   font-family: 'Quicksand', Arial, Helvetica, sans-serif;
   color: #fff;
-  height: 100vh;
   display: flex;
-  flex-direction: column;
 }
