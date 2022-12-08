@@ -7,7 +7,3 @@ export default {
   name: "dAppsPage"
 }
 </script>
-
-<style scoped>
-
-</style>

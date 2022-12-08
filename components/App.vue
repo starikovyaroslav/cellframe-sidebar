@@ -1,6 +1,7 @@
 <template>
   <div class="app">
     <Sidebar />
+    <Search />
   </div>
 </template>
 
