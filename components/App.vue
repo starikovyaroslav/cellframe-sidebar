@@ -1,7 +1,10 @@
 <template>
   <div class="app">
-    <Sidebar />
-    <Search />
+    <div class="app__container">
+      <Sidebar/>
+      <Search/>
+    </div>
+    <Footer/>
   </div>
 </template>
 
