@@ -54,7 +54,7 @@ export default {
         {
           path: '/vpn-client',
           name: 'VPN Client',
-          icon: 'navigation/VPN Client.svg'
+          icon: 'navigation/VPN client.svg'
         },
         {
           path: '/vpn-service',
