@@ -1,6 +1,6 @@
 <template>
   <section class="search">
-    <form class="search__form" onSubmit={search}>
+    <form class="search__form" v-on:submit="searchSubmit">
       <div class="search__container">
         <div class="search__wrapper">
           <img class="search__icon" src="/SearchIcon.svg" alt="search-icon"/>
@@ -22,6 +22,11 @@
 
 <script>
 export default {
-  name: "Search"
+  name: "Search",
+  methods: {
+    searchSubmit: function (evt) {
+      evt.preventDefault();
+    }
+  }
 }
 </script>
